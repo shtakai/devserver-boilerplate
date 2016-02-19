@@ -1,17 +1,17 @@
 # api
-Node apiによるWebpack Dev Server・HMRを利用するための設定。(cliでも実行可能)
+Node apiによるWebpack Dev Server・HMRを利用するための設定。(CLIの実行も可能)
 
 ```js
 node install
 
 // node apiで起動
-npm run api-devserver
+npm run devserver
 
 // cliで起動
 npm run cli-devserver
 ```
 
-proxyを利用する場合は、`devserver.js`のproxyの行をコメントアウトし、
+proxyを利用する場合は、`devserver.js`のproxyの行のコメントアウトをはずし、
 
 ```
 npm run appserver
