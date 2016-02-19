@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server",
     "devserver": "node devserver",
     "appserver": "node appserver",
     "cli-devserver": "webpack-dev-server --inline --hot"

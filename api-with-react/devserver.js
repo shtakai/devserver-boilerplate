@@ -19,6 +19,6 @@ var compiler = webpack(config);
 var server = new WebpackDevServer(compiler, {
     publicPath: '/public',
     hot: true, // hotモードを有効にする。
-    //proxy: { '*': 'http://localhost:3000' } // proxyの設定
+    proxy: { '*': 'http://localhost:3000' } // proxyの設定
 });
 server.listen(8080);
