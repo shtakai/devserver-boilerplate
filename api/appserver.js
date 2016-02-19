@@ -4,7 +4,7 @@ var app = new express();
 var port = 3000
 
 app.get('/', function (req, res) {
-  res.send('Hello, World!<script src="public/index_bundle.js"></script>');
+  res.send('Proxied!!<input type="text" /><script src="public/index_bundle.js"></script>');
 });
 
 app.listen(port, function(error) {

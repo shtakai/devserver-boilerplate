@@ -1,5 +1,10 @@
 # api
-Node apiによるWebpack Dev Server・HMRを利用するための設定。(CLIの実行も可能)
+- babelによるES6、ES7のコンパイル
+- webpack
+- HMRを行うWebpack Dev Server (node API利用。CLIでも実行可能)
+- アプリケーション・サーバーへのproxyの設定
+- アプリケーションへの簡単なHMRへの対応
+
 
 ```js
 node install
@@ -15,17 +20,28 @@ proxyを利用する場合は、[devserver.jsのproxyの行のコメントアウ
 
 ```
 npm run appserver
-npm run api-devserver
+npm run devserver
 ```
 
 を実行
 
 # api-with-react
-Node apiによるWebpack Dev Server・HMRを利用する設定。+ react HMR対応
-起動はapiと同じ
+- babelによるES6、ES7のコンパイル
+- webpack
+- HMRを行うWebpack Dev Server (node API利用。CLIでも実行可能)
+- アプリケーション・サーバーへのproxyの設定
+- アプリケーションへの簡単なHMRへの対応
+
+- babelによるJSXのコンパイル
+- babelによる、ReactアプリケーションのHMR対応
+
+起動はapiと同様
 
 # middleware
-middlewareによるHMRを利用するための設定。
+- babelによるES6、ES7のコンパイル
+- webpack
+- HMRを行うサーバー (expressを利用)
+- アプリケーションへの簡単なHMRへの対応
 
 ```
 npm install

@@ -29,7 +29,7 @@ app.use(webpackHotMiddleware(compiler));
 
 // index.htmlが使われているわけでないことを念のため明確にするため
 app.get('/', function (req, res) {
-  res.send('I am using middleware!<script src="public/index_bundle.js"></script>');
+  res.send('I am using middleware!<br /><input type="text"/><script src="public/index_bundle.js"></script>');
 });
 
 app.listen(port, function(error) {
