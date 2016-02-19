@@ -1,5 +1,5 @@
 # api
-Node apiによるWebpack Dev Server・HMRを利用するための設定。
+Node apiによるWebpack Dev Server・HMRを利用するための設定。(cliでも実行可能)
 
 ```js
 node install
@@ -18,6 +18,7 @@ npm run appserver
 npm run api-devserver
 ```
 
+を実行
 
 # api-with-react
 Node apiによるWebpack Dev Server・HMRを利用する設定。+ react HMR対応
