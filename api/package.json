@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cli-devserver": "webpack-dev-server --inline --hot",
-    "api-devserver": "node devserver",
-    "appserver": "node appserver"
+    "devserver": "node devserver",
+    "appserver": "node appserver",
+    "cli-devserver": "webpack-dev-server --inline --hot"
   },
   "author": "",
   "license": "ISC",
