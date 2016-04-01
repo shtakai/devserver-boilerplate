@@ -22,3 +22,4 @@ var server = new WebpackDevServer(compiler, {
     proxy: { '*': 'http://localhost:3000' } // proxyの設定
 });
 server.listen(8080);
+console.log('Open http://localhost:8080 for your application. not localhost:3000');
