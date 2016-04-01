@@ -1,10 +1,9 @@
 # api
 - babelによるES6、ES7のコンパイル
-- webpack
-- HMRを行うWebpack Dev Server (node API利用。CLIでも実行可能)
+- webpackによるcommonJS形式のモジュール解決
+- HotModuleReplacement(HMR)を行うWebpack Dev Server (node API利用。CLIでも実行可能)
 - アプリケーションへの簡単なHMRへの対応
 - アプリケーション・サーバーへのproxyの設定
-
 
 
 ```js
@@ -13,6 +12,11 @@ node install
 npm start
 
 ```
+
+1. localhost:8080へアクセス
+2. INPUTに何か入力する
+3. es6sample.jsのhello関数を修正
+4. 入力文字列が削除されずにjsのみ更新される（HMR）
 
 proxyを利用しない場合は、[devserver.jsのproxyの設定](https://github.com/haradakunihiko/devserver-boilerplate/blob/master/api/devserver.js#L22)をコメントアウトし、
 
