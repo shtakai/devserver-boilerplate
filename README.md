@@ -1,6 +1,7 @@
 # api
 - babelによるES6、ES7のコンパイル
 - webpackによるcommonJS形式のモジュール解決
+- html、css、sassのモジュール解決
 - HotModuleReplacement(HMR)を行うWebpack Dev Server (node API利用。CLIでも実行可能)
 - アプリケーションへの簡単なHMRへの対応
 - アプリケーション・サーバーへのproxyの設定
