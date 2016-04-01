@@ -1,2 +1,4 @@
-export const hello = () => 'hello';
+export const hello = () => {
+  return 'hello!';
+}
 

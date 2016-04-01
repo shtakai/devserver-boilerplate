@@ -12,14 +12,25 @@ module.exports = {
     filename: 'index_bundle.js',
     publicPath: '/public/'
   },
+  devtool: 'eval-source-map',
   module: {
     loaders: [
       {
-        // .jsxと.jsを対象にする
         test: /\.jsx?$/,
-        // node_modulesを除く
         exclude: /node_modules/,
         loaders: ['babel-loader'],
+      }, {
+        test: /\.css$/,
+        exclude: /node_modules/,
+        loaders: ['style', 'css'],
+      }, {
+        test: /\.scss$/,
+        exclude: /node_modules/,
+        loaders: ['style-loader', 'css-loader', 'sass-loader'],
+      }, {
+        test: /\.html$/,
+        exclude: /node_modules/,
+        loaders: ['html-loader'],
       }
     ]
   }
