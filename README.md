@@ -1,7 +1,6 @@
 # api
 - babelによるES6、ES7形式javascriptのコンパイル
 - webpackによるcommonJS形式のモジュール解決
-- html、css、sassのモジュール解決
 - Hot Module Replacement(HMR・ホットリロード)を行うWebpack Dev Server
 - アプリケーションへの簡単なHMRへの対応
 - 別に起動しているアプリケーション・サーバーへのproxyの設定
@@ -31,6 +30,11 @@ npm run cli-devserver
 ```
 
 を実行
+
+# api_css
+- apiと同様
+- html、css、sassのモジュール解決
+
 
 # api-with-react
 - babelによるES6、ES7のコンパイル
