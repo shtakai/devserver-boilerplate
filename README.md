@@ -1,4 +1,7 @@
 # api
+
+[![GuardRails badge](https://badges.production.guardrails.io/shtakai/devserver-boilerplate.svg)](https://www.guardrails.io)
+
 - babelによるES6、ES7形式javascriptのコンパイル
 - webpackによるcommonJS形式のモジュール解決
 - Hot Module Replacement(HMR・ホットリロード)を行うWebpack Dev Server
